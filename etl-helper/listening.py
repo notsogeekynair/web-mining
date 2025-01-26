@@ -5,7 +5,7 @@ from google.oauth2 import service_account
 from utils import generate_lecture, generate_questions_from_passage, text_to_audio
 import google.cloud.texttospeech as texttospeech
 
-openai.api_key = "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"
+openai.api_key = "insert-openai-api-key-here"
 
 
 def handle_listening_section():
