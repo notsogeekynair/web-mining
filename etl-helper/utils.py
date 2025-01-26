@@ -3,7 +3,7 @@ from google.oauth2 import service_account
 import google.cloud.texttospeech as texttospeech
 import random
 
-openai.api_key = "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"
+openai.api_key = "insert-open-ai-api-key-here"
 lecture_topics = [
     "The impact of climate change on ecosystems",
     "Space exploration and the history of space missions",
