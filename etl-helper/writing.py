@@ -4,7 +4,7 @@ import streamlit as st
 from google.cloud import aiplatform
 from google.oauth2 import service_account
 from vertexai.preview.language_models import TextGenerationModel
-credentials = service_account.Credentials.from_service_account_file("D:/BU/Fall 24/Web Mining/Term Project/ept-helper-442122-e21a06ec1cd4.json")
+credentials = service_account.Credentials.from_service_account_file("insert-filepath-for-gcp-credentials-json")
 
 aiplatform.init(credentials=credentials, project="ept-helper-442122", location="us-central1")   # Initialize the Vertex AI client
 
